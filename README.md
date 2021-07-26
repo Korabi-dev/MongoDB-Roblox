@@ -50,8 +50,9 @@ For support send me a friend request on discord via [my profile](https://discord
 <br>
 Example: <br>
 <br>
-```
+```lua
 local db = require(game:GetService("ServerScriptService").mongo)
+
 game:GetService("Players").PlayerAdded:Connect(function(player)
 	local ls = Instance.new("Folder", player)
 	ls.Name = "leaderstats"
