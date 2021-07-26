@@ -17,14 +17,14 @@ We in this case assume that "db" is defined as `local db = require(game:GetServi
 
 Properties: 
 * Params are the parameters to search for, this needs to be a lua table like so: `{user = "669882318"}`.
-* Model is the mongoDB model name where you need to search, you will have yor own model names like "korabi-money" or "korabi-debirths". 
+* Model is the mongoDB model name where you need to search, you will have yor own model names like `korabi-money` or `korabi-rebirths`. 
 * Update is only used in db:Update() and it is a lua table of what needs to be changed in the info.
 
-Functions: 
-db:Find(Params, Model)
-db:Create(Params, Model)
-db:Delete(params, model)
-db:Update(params, model, update)
+Functions: <br>
+db:Find(Params, Model)<br>
+db:Create(Params, Model)<br>
+db:Delete(params, model)<br>
+db:Update(params, model, update)<br>
 
 Support:
 For support send me a friend request on discord via [my profile](https://discord.com/users/638476135457357849)
