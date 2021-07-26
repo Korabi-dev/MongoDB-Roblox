@@ -1,3 +1,4 @@
+<img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" align="center" alt="logo">
 ## MongoDB-Roblox
 Oh hey there! Welcome.
 
