@@ -43,11 +43,45 @@ db:Create(Params, Model)<br>
 db:Delete(Params, Model)<br>
 db:Update(Params, Model, Update)<br>
 
+<br>
 Support: <br>
 <br>
 For support send me a friend request on discord via [my profile](https://discord.com/users/638476135457357849)
+<br>
+Example: <br>
+<br>
+```
+local db = require(game:GetService("ServerScriptService").mongo)
+game:GetService("Players").PlayerAdded:Connect(function(player)
+	local ls = Instance.new("Folder", player)
+	ls.Name = "leaderstats"
+	local money = Instance.new("IntValue", ls)
+	money.Name = "money"
+	money.Value = 0
+	local data = db:Find({user = tostring(player.userId)}, "money")
+	print(data)
+	if data.success == true then
+		money.Value = data.money
+	else
+		data = db:Create({user = tostring(player.userId), money = 0, name = player.Name}, "money")
+		print("new data for player ".. player.Name)
+	end
+end)
 
+game:GetService("Players").PlayerRemoving:Connect(function(player)
+	local data = db:Update({user = tostring(player.userId)}, "money", {money = player.leaderstats.money.Value, name = string.lower(player.Name)})
+	if data.success == true then
+		print("saved")
+	else
+		print(data)
+		print("error while saving")
+	end
+end)
 
+game.ReplicatedStorage.click.OnServerEvent:Connect(function(p)
+	p.leaderstats.money.Value = p.leaderstats.money.Value + 1
+end)
+```
 Thanks for visiting!
 
-\- Korabi, Owner and Head Developer.
+- Korabi, Owner and Head Developer.
