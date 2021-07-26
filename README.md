@@ -46,4 +46,4 @@ For support send me a friend request on discord via [my profile](https://discord
 
 Thanks for visiting!
 
-- Korabi, Owner and Head Developer.
+\- Korabi, Owner and Head Developer.
