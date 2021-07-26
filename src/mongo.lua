@@ -1,7 +1,7 @@
 local module = {}
 local http = game:GetService("HttpService")
-local api_key = game.ServerStorage.DB.key.Value or "API_KEY"
-local url = game.ServerStorage.DB.url.Value or "https://api-production-ewox.up.railway.app/"
+local api_key = game:GetService("ServerStorage").DB.key.Value or "API_KEY"
+local url = game:GetService("ServerStorage").DB.url.Value or "https://api-production-ewox.up.railway.app/"
 
 function module:Find(params, model)
 	local data = http:GetAsync(url .. "findone?key="..api_key.."&&model="..model.."&&params=".. http:JSONEncode(params))
