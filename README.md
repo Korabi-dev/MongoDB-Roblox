@@ -83,6 +83,3 @@ game.ReplicatedStorage.click.OnServerEvent:Connect(function(p)
 	p.leaderstats.money.Value = p.leaderstats.money.Value + 1
 end)
 ```
-Thanks for visiting!
-
-- Korabi, Owner and Head Developer.
