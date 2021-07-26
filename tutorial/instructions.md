@@ -28,4 +28,5 @@ db:Delete(params, model)<br>
 db:Update(params, model, update)<br>
 
 Support: <br>
+<br>
 For support send me a friend request on discord via [my profile](https://discord.com/users/638476135457357849)
