@@ -31,6 +31,7 @@ You're now done with the setup!
 Defining: <br>
 We in this case assume that "db" is defined as `local db = require(game:GetService("ServerScriptService").mongo)`
 <br>
+<br>
 Properties: 
 * Params are the parameters to search for, this needs to be a lua table like so: `{user = "669882318"}`.
 * Model is the mongoDB model name where you need to search, you will have yor own model names like `korabi-money` or `korabi-rebirths`. 
