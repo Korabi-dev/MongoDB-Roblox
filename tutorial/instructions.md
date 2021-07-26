@@ -24,8 +24,8 @@ Functions: <br>
 <br>
 db:Find(Params, Model)<br>
 db:Create(Params, Model)<br>
-db:Delete(params, model)<br>
-db:Update(params, model, update)<br>
+db:Delete(Params, Model)<br>
+db:Update(Params, Model, Update)<br>
 
 Support: <br>
 <br>
