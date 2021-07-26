@@ -86,4 +86,4 @@ end)
 ```
 Thanks for visiting!
 
-- Korabi, Owner and Head Developer.
+\- Korabi, Owner and Head Developer.
