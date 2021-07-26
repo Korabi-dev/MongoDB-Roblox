@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" alt="MongoDB" width="250" height="250" />
+<img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" alt="MongoDB" width="275" height="275" />
 </p>
 
 ## MongoDB-Roblox
