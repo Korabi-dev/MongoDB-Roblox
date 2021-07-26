@@ -50,6 +50,7 @@ For support send me a friend request on discord via [my profile](https://discord
 <br>
 Example: <br>
 <br>
+
 ```lua
 local db = require(game:GetService("ServerScriptService").mongo)
 
@@ -83,3 +84,6 @@ game.ReplicatedStorage.click.OnServerEvent:Connect(function(p)
 	p.leaderstats.money.Value = p.leaderstats.money.Value + 1
 end)
 ```
+Thanks for visiting!
+
+- Korabi, Owner and Head Developer.
