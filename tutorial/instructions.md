@@ -21,6 +21,7 @@ Properties:
 * Update is only used in db:Update() and it is a lua table of what needs to be changed in the info.
 
 Functions: <br>
+<br>
 db:Find(Params, Model)<br>
 db:Create(Params, Model)<br>
 db:Delete(params, model)<br>
